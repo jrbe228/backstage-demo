@@ -42,7 +42,6 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: yarn install
         run: yarn install --immutable
-      # End of yarn setup
 
       - name: lint
         run: yarn backstage-cli repo lint
