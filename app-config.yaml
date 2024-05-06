@@ -56,10 +56,10 @@ backend:
 
 auth:
   environment: development
-  dangerouslyDisableDefaultAuthPolicy: true
   providers:
     guest:
-      userEntityRef: user:default/guest
+      dangerouslyDisableDefaultAuthPolicy: true
+      #userEntityRef: user:default/guest
 #    github:
 #      development:
 #        clientId: ${GITHUB_DEVELOPMENT_CLIENT_ID}
