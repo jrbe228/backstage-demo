@@ -55,7 +55,7 @@ backend:
 #      token: ${GITHUB_TOKEN}
 
 auth:
-  environment: development
+  #environment: development
   providers:
     guest:
       dangerouslyDisableDefaultAuthPolicy: true
