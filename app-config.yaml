@@ -56,6 +56,7 @@ backend:
 
 auth:
   environment: development
+  dangerouslyDisableDefaultAuthPolicy: true
   providers:
     guest:
       userEntityRef: user:default/guest
